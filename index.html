@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#14665f">
+    <meta name="description" content="Browse ABC Tutoring tutors and choose a session for your student.">
+    <title>Find a tutor · ABC Tutoring</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to tutors</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="ABC Tutoring home"><span class="brand-mark" aria-hidden="true">abc<span>●</span></span><span>ABC Tutoring</span></a>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="page-heading"><h1>Find your tutor</h1><span class="step-label">01 &nbsp; Choose a session</span></div>
+      <section aria-label="Filter tutors by subject" class="filter-section">
+        <span class="filter-label">Subject</span><div id="subject-filters" class="filters"></div>
+      </section>
+      <div class="workspace">
+        <section aria-label="Tutors and available sessions">
+          <div class="list-meta"><p id="results-count" role="status">Loading tutors…</p><p id="time-zone"></p></div>
+          <div id="load-error" class="notice error" role="alert" hidden><p>We couldn’t load the tutors. Please try again.</p><button id="retry" type="button" class="button secondary">Try again</button></div>
+          <div id="storage-error" class="notice error" role="alert" hidden></div>
+          <div id="tutor-list" class="tutor-list"></div>
+        </section>
+        <aside class="booking-panel" aria-label="Book a session"><booking-form></booking-form></aside>
+      </div>
+      <noscript><p class="notice">Please enable JavaScript to see tutors and book a session.</p></noscript>
+    </main>
+    <footer class="site-footer"><span>ABC Tutoring</span><p id="contact-note">Need to change a session? Contact Dana directly.</p><p class="prototype-note">Practice website · Bookings are saved on this browser only.</p></footer>
+  </body>
+</html>

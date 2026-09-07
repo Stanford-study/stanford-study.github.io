@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "timeZone": "America/Los_Angeles",
+  "tutors": [
+    {
+      "id": "maya-chen",
+      "name": "Maya Chen",
+      "subjects": ["Math", "Science"],
+      "grades": [6, 7, 8],
+      "availability": [
+        { "id": "maya-20260914-1600", "start": "2026-09-14T16:00:00-07:00", "end": "2026-09-14T17:00:00-07:00" },
+        { "id": "maya-20260916-1600", "start": "2026-09-16T16:00:00-07:00", "end": "2026-09-16T17:00:00-07:00" }
+      ]
+    },
+    {
+      "id": "jordan-rivera",
+      "name": "Jordan Rivera",
+      "subjects": ["English", "Writing"],
+      "grades": [5, 6, 7, 8],
+      "availability": [
+        { "id": "jordan-20260915-1530", "start": "2026-09-15T15:30:00-07:00", "end": "2026-09-15T16:30:00-07:00" },
+        { "id": "jordan-20260917-1530", "start": "2026-09-17T15:30:00-07:00", "end": "2026-09-17T16:30:00-07:00" }
+      ]
+    },
+    {
+      "id": "alex-patel",
+      "name": "Alex Patel",
+      "subjects": ["Math", "Physics"],
+      "grades": [9, 10, 11, 12],
+      "availability": [
+        { "id": "alex-20260914-1700", "start": "2026-09-14T17:00:00-07:00", "end": "2026-09-14T18:00:00-07:00" },
+        { "id": "alex-20260918-1600", "start": "2026-09-18T16:00:00-07:00", "end": "2026-09-18T17:00:00-07:00" }
+      ]
+    }
+  ]
+}
